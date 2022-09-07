@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid rgb(150, 0, 0);
+}
+
+* * {
+    outline: 1px solid rgb(170, 0, 0);
+}
+
+* * * {
+    outline: 1px solid rgb(190, 0, 0);
+}
+
+* * * * {
+    outline: 1px solid rgb(210, 0, 0);
+}
+
+* * * * * {
+    outline: 1px solid rgb(230, 0, 0);
+}
+
+.horizontal {
+    display: flex;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.album-art-width {
+    width: 240px;
+}
+
+.album-art-height {
+    height: 240px;
+}
+
+body {
+    height: 100vh;
+}
+
+#main {
+    background: pink;
+    height: 100%;
+}
+
+#music_player_bar {
+    background: yellow;
+    height: 90px;
+}
+
+#main_playlist_viewer_hero {
+    height: 340px;
+}
+
+#main_playlist_viewer_table_pointless_crap_bar {
+    height: 100px;
+}
+
+#main_playlist_viewer_table_header {
+    height: 45px;
+}
+
+#main_playlist_viewer_table_row {
+    height: 55px;
+}

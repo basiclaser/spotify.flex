@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="vertical">
+    <section class="horizontal" id="main">
+        <nav class="vertical between album-art-width" id="main_sidebar">
+            <div class="grow-1" id="main_sidebar_overview">main_sidebar_overview</div>
+            <div class="grow-1" id="main_sidebar_playlists">main_sidebar_playlists</div>
+            <div class="album-art-height" id="main_sidebar_album_art">main_sidebar_album_art</div>
+        </nav>
+        <div class="vertical grow-1" id="main_playlist_viewer">
+            <div id="main_playlist_viewer_hero">main_playlist_viewer_hero</div>
+            <div id="main_playlist_viewer_table">
+                <div class="horizontal between" id="main_playlist_viewer_table_pointless_crap_bar">
+                    <div>play-toggle / download / share</div>
+                    <div>search filter</div>
+                </div>
+                <div class="horizontal" id="main_playlist_viewer_table_header">
+                    <div class="grow-1" id="main_playlist_viewer_table_row_number">#</div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_title/artist">title</div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_album ">album</div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_date_added">date added</div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_likesSong"></div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_duration">🕑</div>
+                    <div class="grow-1" id="main_playlist_viewer_table_row_other_option_dots">other_option_dots</div>
+                </div>
+                <!-- gonna inject here -->
+            </div>
+        </div>
+    </section>
+    <section class="horizontal between" id="music_player_bar">
+        <div id="music_player_bar_song_name">music_player_bar_song_name</div>
+        <div id="music_player_bar_controls">music_player_bar_controls</div>
+        <div id="music_player_bar_other_stuff">music_player_bar_other_stuff</div>
+    </section>
+</body>
+<script src="main.js"></script>
+
+</html>
